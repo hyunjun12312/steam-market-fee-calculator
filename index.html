@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Open-source Steam Market Fee Calculator</title>
+    <meta
+      name="description"
+      content="Estimate Steam Community Market buyer price, seller proceeds, and fee components with integer rounding."
+    />
+    <link
+      rel="canonical"
+      href="https://hyunjun12312.github.io/steam-market-fee-calculator/"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Open-source utility</p>
+      <h1>Steam Market Fee Calculator</h1>
+      <p class="lede">
+        Estimate the buyer-facing price or the amount a seller receives. The
+        calculation uses integer minor units so minimum fees and rounding stay
+        visible.
+      </p>
+
+      <form id="calculator">
+        <label>
+          I know the
+          <select id="mode">
+            <option value="buyer">price the buyer pays</option>
+            <option value="seller">amount the seller receives</option>
+          </select>
+        </label>
+
+        <label>
+          Amount in USD
+          <input id="amount" type="number" min="0" step="0.01" value="1.15" />
+        </label>
+
+        <div class="rates">
+          <label>
+            Steam fee (%)
+            <input id="steam-rate" type="number" min="0" step="0.01" value="5" />
+          </label>
+          <label>
+            Publisher fee (%)
+            <input id="publisher-rate" type="number" min="0" step="0.01" value="10" />
+          </label>
+        </div>
+
+        <button type="submit">Calculate</button>
+      </form>
+
+      <section id="result" aria-live="polite"></section>
+
+      <aside>
+        <strong>Important:</strong> Fee percentages, minimums, publisher fees,
+        taxes, and currency increments can vary. Confirm the final amount in
+        Steam before listing an item. This project is independent and is not
+        affiliated with Valve or Steam.
+      </aside>
+
+      <p class="links">
+        <a href="https://steamvaults.org/tools/steam-market-fee-calculator"
+          >Use the localized calculator on SteamVaults</a
+        >
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/hyunjun12312/steam-market-fee-calculator"
+          >View the source on GitHub</a
+        >
+      </p>
+    </main>
+  </body>
+</html>

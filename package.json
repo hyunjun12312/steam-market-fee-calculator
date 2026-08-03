@@ -1,0 +1,11 @@
+{
+  "name": "steam-market-fee-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An open-source Steam Community Market fee calculator.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
