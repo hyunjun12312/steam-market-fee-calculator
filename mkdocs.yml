@@ -1,0 +1,17 @@
+site_name: Steam Market Fee Calculator Documentation
+site_description: Integer-minor-unit marketplace fee calculation reference and test guidance.
+repo_url: https://github.com/hyunjun12312/steam-market-fee-calculator
+repo_name: hyunjun12312/steam-market-fee-calculator
+
+theme:
+  name: readthedocs
+
+nav:
+  - Overview: index.md
+  - Calculation model: calculation-model.md
+
+markdown_extensions:
+  - fenced_code
+  - tables
+  - toc:
+      permalink: true
