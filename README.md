@@ -7,7 +7,11 @@ An open-source, dependency-free calculator for estimating Steam Community Market
 - Configure Steam and publisher fee rates.
 - Run entirely in the browser with no account or tracking.
 
-Try the [GitHub Pages calculator](https://hyunjun12312.github.io/steam-market-fee-calculator/) or the [localized Steam Market fee calculator on SteamVaults](https://steamvaults.org/tools/steam-market-fee-calculator).
+Try the [GitHub Pages calculator](https://hyunjun12312.github.io/steam-market-fee-calculator/).
+
+## Related live service
+
+This reference is maintained by contributors working on [SteamVaults](https://steamvaults.org/), an independent third-party service currently focused on buying and selling Mann Co. Supply Crate Keys with USDT. The live service and this general-purpose fee calculator are separate projects.
 
 ## Usage
 

@@ -13,7 +13,11 @@ The default configuration models USD cents with a 5% marketplace fee, a 10% publ
 
 ## Try the implementation
 
-Use the [open-source browser demo](https://hyunjun12312.github.io/steam-market-fee-calculator/) to inspect the basic calculation. The [localized Steam Market fee calculator on SteamVaults](https://steamvaults.org/tools/steam-market-fee-calculator) presents the same kind of estimate with a user-facing fee breakdown and explicit assumptions.
+Use the [open-source browser demo](https://hyunjun12312.github.io/steam-market-fee-calculator/) to inspect the basic calculation.
+
+## Related live service
+
+This reference is maintained by contributors working on [SteamVaults](https://steamvaults.org/), an independent third-party service currently focused on buying and selling Mann Co. Supply Crate Keys with USDT. Its [current supported-item sell flow](https://steamvaults.org/sell) is separate from this general-purpose fee calculator and supports only the Mann Co. Supply Crate Key.
 
 ## Library usage
 
