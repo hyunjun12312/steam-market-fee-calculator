@@ -1,3 +1,5 @@
+/* @ts-self-types="./fees.d.ts" */
+
 const DEFAULT_OPTIONS = Object.freeze({
   steamFeeRate: 0.05,
   publisherFeeRate: 0.1,

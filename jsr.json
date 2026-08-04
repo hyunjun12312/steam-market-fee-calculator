@@ -1,0 +1,8 @@
+{
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+  "name": "@steamvaults/market-fees",
+  "version": "1.0.0",
+  "license": "MIT",
+  "exports": "./src/fees.js",
+  "include": ["src/fees.js", "src/fees.d.ts", "README.md", "LICENSE"]
+}
