@@ -1,0 +1,26 @@
+name: Publish JSR package
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - jsr.json
+      - src/fees.js
+      - src/fees.d.ts
+      - README.md
+      - LICENSE
+      - .github/workflows/publish-jsr.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Publish package
+        run: npx jsr publish
