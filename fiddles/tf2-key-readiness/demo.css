@@ -1,0 +1,118 @@
+:root {
+  color: #e8edf5;
+  background: #0b1018;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  place-items: center;
+  background: radial-gradient(circle at top, #18263a, #0b1018 58%);
+}
+
+.card {
+  width: min(720px, 100%);
+  padding: 32px;
+  border: 1px solid #2d3d52;
+  border-radius: 18px;
+  background: #101925;
+  box-shadow: 0 24px 80px #0008;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #61dafb;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+h1 {
+  margin: 0.5rem 0 1rem;
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1.05;
+}
+
+.intro,
+.resource {
+  color: #b9c5d6;
+  line-height: 1.6;
+}
+
+.scope {
+  margin: 20px 0;
+  padding: 14px 16px;
+  border-left: 4px solid #61dafb;
+  border-radius: 8px;
+  background: #162234;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  margin: 22px 0;
+}
+
+label {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 13px;
+  border: 1px solid #26374b;
+  border-radius: 10px;
+  background: #121e2c;
+  line-height: 1.45;
+  cursor: pointer;
+}
+
+input {
+  margin-top: 3px;
+  accent-color: #31c48d;
+}
+
+.progress {
+  margin: 20px 0;
+}
+
+.bar {
+  height: 10px;
+  margin-top: 8px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: #26374b;
+}
+
+.bar span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #31c48d, #61dafb);
+  transition: width 0.2s;
+}
+
+a {
+  color: #78e2ff;
+  font-weight: 700;
+}
+
+button {
+  padding: 10px 15px;
+  border: 1px solid #425b78;
+  border-radius: 9px;
+  color: #e8edf5;
+  background: #1b2b40;
+  cursor: pointer;
+}
+
+.fineprint {
+  margin: 20px 0 0;
+  color: #74839a;
+  font-size: 0.82rem;
+}
