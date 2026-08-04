@@ -2,6 +2,8 @@
 
 An open-source, dependency-free calculator for estimating Steam Community Market fees. It works in integer minor units so percentage fees, minimum component fees, and rounding are explicit.
 
+![Steam Market Fee Calculator browser interface](docs/steam-market-fee-calculator.png)
+
 - Calculate the buyer-facing price from a desired seller receipt.
 - Reverse an exact buyer-facing price into seller proceeds and fees.
 - Configure Steam and publisher fee rates.
