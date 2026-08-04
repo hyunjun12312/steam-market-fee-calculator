@@ -9,6 +9,9 @@ An open-source, dependency-free calculator for estimating Steam Community Market
 
 Try the [GitHub Pages calculator](https://hyunjun12312.github.io/steam-market-fee-calculator/).
 
+For reproducible boundary checks, open the
+[integer fee invariants notebook](notebooks/integer-fee-invariants.ipynb).
+
 ## Related live service
 
 This reference is maintained by contributors working on [SteamVaults](https://steamvaults.org/), an independent third-party service currently focused on buying and selling Mann Co. Supply Crate Keys with USDT. The live service and this general-purpose fee calculator are separate projects.
